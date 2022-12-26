@@ -1,0 +1,69 @@
+body{
+    background-color: beige;
+}
+section {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.component-sales {
+    background-color: white;
+    width: 250px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family:"Hind Madurai", sans-serif;
+
+   
+}
+.component-sales h2 {
+    font-size: 20px;
+    width: 100%;
+    color: rgb(99, 99, 99);
+    font-weight: normal;
+}
+
+
+.component-sales button {
+    width: 100%;
+    background: rgb(64, 205, 40);
+    color: white;
+    padding: 12px;
+    border: none;
+}
+
+.component-sales img {
+    width: 150px;
+    padding: 20px 0px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.description .price {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 10px;
+} 
+.price span:first-child {
+    text-decoration: line-through; 
+    color:rgb(102, 102, 102);
+    font-weight: 600;
+}
+
+.percentage {
+    width: 60px;
+    background-color: rgb(64, 205, 40);
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
